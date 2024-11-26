@@ -25,11 +25,12 @@ Key Features:
 Commands to Run:
 
 bash
-Copy code
+```
 cd Task1_ControlFlow
 nasm -f elf32 task1.asm -o task1.o -g
 ld -m elf_i386 task1.o -o task1
 ./task1
+```
 
 Challenges:
 Understanding how each jump affects the program flow and ensuring that the classification was accurate to ensure the task runs correctly.
@@ -52,11 +53,12 @@ Key Features:
 Commands to Run:
 
 bash
-Copy code
+```
 cd Task2_ArrayManipulation
 nasm -f elf32 task2.asm -o task2.o -g
 ld -m elf_i386 task2.o -o task2
 ./task2
+```
 
 Challenges:
 
@@ -80,11 +82,12 @@ Key Features:
 Commands to Run:
 
 bash
-Copy code
+```
 cd Task3_Factorial
 nasm -f elf32 task3.asm -o task3.o -g
 ld -m elf_i386 task3.o -o task3
 ./task3
+```
 
 Challenges:
 
@@ -106,12 +109,12 @@ Key Features:
 Commands to Run:
 
 bash
-Copy code
+```
 cd Task4_DataMonitoring
 nasm -f elf32 task4.asm -o task4.o -g
 ld -m elf_i386 task4.o -o task4
 ./task4
-
+```
 Challenges:
 
 Simulating hardware control and manipulating memory for a simulated sensor input.
